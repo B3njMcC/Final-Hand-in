@@ -5,15 +5,19 @@ nav{
 }
 
 body{
-    background-color: black;
+    background-color: #101015;
 }
 
 header{
-    height: 1000px;
+    height: 450px;
     width: 100%;
     background-image: none;
     background-position: center;
     background-size: cover;
+}
+
+.full{
+
 }
 
 .Overlay{
@@ -67,6 +71,139 @@ header{
 .Title{
     width: 500px;
     height: 500px;
-    background-color: grey;
-    margin-top: 1px;
+}
+
+.Text{
+    width: 100%;
+    height: 100%;
+    margin-top: -250px;
+    margin-left: 20%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.MainText{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.Paragraph{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.e-mail{
+    width: 50%;
+    height: 75px;
+    background-color: none;
+    margin-left: 20%;
+}
+
+.mail{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.phone{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: -49px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.map{
+    width: 100%;
+    margin-left: 20%;
+}
+
+.Formbox{
+    width: 80%;
+    height: 500px;
+    background-color: #202833;
+    margin-left: 775px;
+    margin-top: -525px;
+}
+
+input{
+}
+
+.input-el{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: none;
+    margin-left: 25px;
+    background-color: #0B0C10;
+    color: white;
+}
+
+.Formbox h2{
+    padding-top: 40px;
+    padding-left: 25px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+select{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0B0C10;
+    margin-left: 25px;
+    color: white;
+}
+
+select, button{
+    color: white;
+    margin-right: 40px !important;
+}
+
+textarea{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0B0C10;
+    margin-left: 25px;
+    color: white;
+}
+
+footer{
+    color: white;
+    margin-top: 450px;
+}
+
+.playbutton{
+    width: 250px;
+    height: 70px;
+    border-radius: 5px;
+    padding-top: 13px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.normal{
+    text-align: center;
+    border: 2px solid #66FCF1;
+    background-color: #66FCF1;
+    margin-left: 125px;
+    border-radius: 10cm;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
